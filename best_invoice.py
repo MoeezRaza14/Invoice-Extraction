@@ -12,8 +12,7 @@ import re
 import os
 from tabulate import tabulate
 
-file_path = "your_file.csv"
-df = pd.read_csv(file_path, header=None)
+df = pd.read_csv("your_file.csv", header=None)
 df
 
 def is_numeric(val):

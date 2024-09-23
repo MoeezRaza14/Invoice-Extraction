@@ -200,8 +200,10 @@ def process_multiple_files(file_paths):
             print(e)
 
 paths = [
-    "E:\ms_vs_code\Basant T2 - 1099i1.csv"
+    "file1.csv",
+    "file2.csv",
+    "file3.csv",
+    "file4.csv"
 ]
 
 process_multiple_files(paths)
-
